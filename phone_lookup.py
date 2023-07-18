@@ -6,7 +6,7 @@ def lookup(phone_number):
     html = htmlparser(http.text, "html.parser")
     infos = html.findChild("ul", {"class": "report-summary__list"}).findAll("div")
 
-    return {k.text.strip(): infos[i+1].text.strip() if infos[i+1].text.strip() else "No informations" for i, k in enumerate(infos) if not i % 2}
+    return {k.text.strip(): infos[i+1].text.strip() if infos[i+1].text.strip() else "No information" for i, k in enumerate(infos) if not i % 2}
 
 def main():
     while True:
