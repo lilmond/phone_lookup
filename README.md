@@ -1,11 +1,11 @@
 # phone_lookup
-Phone number information lookup
+Phone number +62 822-2341-8409
 
 Discord (csec): 0x5a0x460x700x540x520x470x4a0x710x530x6c0x420x490x650x410x3d0x3d
 
 # Usage
 ```
-Phone number: 13046252000
+Phone number: +62 822-2341-8409
 Owner: No information
 Country: United States
 Location: West Virginia
